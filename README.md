@@ -1,2 +1,4 @@
-# ytclone
-#### *A old ui design of youtube app*
+# ytclone ▶
+#### *A old ui design of youtube app 👩‍💻*
+
+![GitHub Logo](/)
