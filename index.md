@@ -22,4 +22,4 @@ The `showAccount()` function is currently causing problems, still working on fix
 
 ### Support or Contact
 
-Having trouble with Page? feel free to [send me a message on twitter](https://github.com/trinitysenpai)
+Having trouble with Page? feel free to [send me a message on twitter](https://twitter.com/trinitysenpai)
