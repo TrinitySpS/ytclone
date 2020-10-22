@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta meta name="viewport" content="width=device-width, user-scalable=no" /> 
+
+<!--Google Icons-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!--Fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<!--Scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.2.0/dist/jBox.all.min.js"></script>
+
+<script src="js/js.js"  ></script>
+
+
+<!--CSS-->
+<link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.2.0/dist/jBox.all.min.css" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet" >
+
+<title>YouTube Clone</title>
+
+<!--Firebase-->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBfnl2VB6SB1xxQfN-vAj83NX3xw2_3Z18",
+    authDomain: "ytcloneui.firebaseapp.com",
+    databaseURL: "https://ytcloneui.firebaseio.com",
+    projectId: "ytcloneui",
+    storageBucket: "ytcloneui.appspot.com",
+    messagingSenderId: "909128112946",
+    appId: "1:909128112946:web:56b0bbcc0bf2634d51d52b",
+    measurementId: "G-XL9SEZD927"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+
+</head>
+
+<body class="light">
+
+    <div class="navBar">
+        
+        <div class="top">
+        <h4 class="home">Home</h4>
+        <i class="material-icons theme-switch" style="font-size:38px; margin-left: 50vw; color: white;">brightness_medium</i>
+        </div>
+
+        <br>
+
+        <i class="material-icons" style="font-size:10vw; margin-left: 16%; color: white;">account_circle</i>
+        <i class="material-icons" style="font-size:10vw; margin-left: 16%; color: white;">invert_colors</i>     
+        <i class="material-icons" style="font-size:10vw; margin-left: 16%; color: white;">account_circle</i>
+
+        <div class="indicator" id="i"></div>
+    </div>
+
+    <div class="container" align="center">
+
+        <div class="video">
+
+            <img src="https://i.ytimg.com/vi/lx7oqZ7Nl3k/maxresdefault.jpg" class="thumbnail">
+                
+                <div class="info">
+
+                    <img src="https://yt3.ggpht.com/a/AGF-l7_-YL9SuUdHFCU-O8FzclGmVs-1HEduh5s9KQ=s900-mo-c-c0xffffffff-rj-k-no" width="40px" height="40px" class="avatar wrap"><br>
+                    <p class="title">6 Python Exercises For Beginners<br><span><span class="name">CS Dojo</span> • <span class="views">680k views</span> • 2 months ago</p>
+                    
+                </div>
+
+        </div>
+
+        <hr>
+        
+        <div class="video" >
+            
+            <img src="https://fireship.io/lessons/how-to-build-a-slack-bot/img/featured.png" class="thumbnail">
+                <div class="info">
+                
+                    <img src="https://yt3.ggpht.com/a-/AAuE7mCfWaPOwsuJgVsufijI_uvXPmmaPfzkLQcbpQ=s900-mo-c-c0xffffffff-rj-k-no" width="40px" height="40px" class="avatar"><br>
+                    <p class="title" >How to build a Slack app<br><span>Fireship • 260k views • 7 months ago</span></p>
+                
+                </div>
+                
+        </div>
+        
+        <hr>
+
+        <div class="video" >
+        
+            <img src="https://i.ytimg.com/vi/QPZ0pIK_wsc/maxresdefault.jpg" class="thumbnail">
+                <div class="info">
+        
+                <img src="https://yt3.ggpht.com/a-/AAuE7mD794FL2AHjfiNHfCfgv6F6SQDQbwoSLOH6Ug=s900-mo-c-c0xffffffff-rj-k-no" width="40px" height="40px" class="avatar"><br>
+                <p class="title" >FizzBuzz : One Simple Interview Question . . .<br><span>Tom Scott • 4.3M views • 3 years ago</span></p>
+        
+            </div>
+        
+        </div>
+        
+        <hr>
+        
+        <div class="video" >
+        
+            <img src="https://fireship.io/lessons/build-group-chat-with-firestore/img/featured.png" class="thumbnail">
+                <div class="info">
+        
+                    <img src="https://yt3.ggpht.com/a-/AAuE7mCfWaPOwsuJgVsufijI_uvXPmmaPfzkLQcbpQ=s900-mo-c-c0xffffffff-rj-k-no" width="40px" height="40px" class="avatar"><br>
+                    <p class="title" >Build a chat app with Firestone<br><span>Fireship • 605k views • 1 year ago</span></p>
+        
+                </div>
+        
+          </div>
+
+          <hr>
+        
+        <div class="video">
+        
+            <img src="https://www.alltechng.com/wp-content/uploads/2020/06/maxresdefault-38.jpg" class="thumbnail">
+                <div class="info">
+        
+                    <img src="https://media.moddb.com/images/articles/1/215/214393/logo.jpg" width="40px" height="40px" class="avatar"><br>
+                    <p class="title" >How Making Indie Games Changed My Life<br><span>Game Dev Unlocked • 784k views • 2 years ago</span></p>
+        
+                </div>
+        
+        </div>
+      
+    </div>
+
+    <div class="sub-container" align="center">
+    
+        <div class="video">
+        
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.1hPLoQpS67rdgGgF8FSNqgHaEK%26pid%3DApi&f=1" class="thumbnail">
+                <div class="info">
+        
+                    <img src="https://vloggerpro.com/wp-content/uploads/2018/09/pewdiepie-logo.jpg?x15551" width="40px" height="40px" class="avatar"><br>
+                    <p class="title" >This game is TOO HARD! | HARDEST GAME EVER<br><span>Pewdiepie • 8.3M views • 3 years ago</span></p>
+        
+                </div>
+        
+        </div>
+
+        <hr>
+
+        <div class="video">
+        
+            <img src="https://i.ytimg.com/vi/2QXQihYGZfI/maxresdefault.jpg" class="thumbnail">
+                <div class="info">
+                   <img src="https://yt3.ggpht.com/a/AATXAJyC_QqT1Fm-GExDj7psvvDxEK6k8G4zqJo6Q0SXwg=s176-c-k-c0x00ffffff-no-rj" width="40px" height="40px" class="avatar"><br>
+                    <p class="title" >What's in my work backpack? <br><span>mayuko • 166k views • 3 years ago</span></p>
+        
+                </div>
+        
+        </div>
+        
+        <hr>
+
+        <div class="video">
+        
+            <img src="https://techwithtim.net/wp-content/uploads/2018/12/python-classes-and-objects-300x169.png" class="thumbnail">
+                <div class="info">
+                   <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F35348871%3Fs%3D460%26u%3D509fc2676791a044041ef05df9942f2abe07e5de%26v%3D4&f=1&nofb=1" width="40px" height="40px" class="avatar"><br>
+                    <p class="title" >Classes & Objects | Python Tutorial <br><span>Tech With Tim • 166k views • 9 months ago</span></p>
+        
+                </div>
+        
+        </div>
+
+        <hr>
+
+        <div class="video">
+        
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.morosan-websoft.com%2Fwp-content%2Fuploads%2F2020%2F05%2F1589838717_maxresdefault.jpg&f=1&nofb=1" class="thumbnail">
+                <div class="info">
+                   <img src="https://yt3.ggpht.com/a/AATXAJyC_QqT1Fm-GExDj7psvvDxEK6k8G4zqJo6Q0SXwg=s176-c-k-c0x00ffffff-no-rj" width="40px" height="40px" class="avatar"><br>
+                    <p class="title" >How to deal with REJECTION as a Software Engineer<br><span>mayuko • 483k views • 1 year ago</span></p>
+        
+                </div>
+        
+        </div>
+
+        <hr>
+
+        <div class="video">
+        
+            <img src="https://i.ytimg.com/vi/r428O_CMcpI/maxresdefault.jpg" class="thumbnail">
+                <div class="info">
+                   <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.mfWEy1DMGpEIwQRt__twmgHaHa%26pid%3DApi&f=1" width="40px" height="40px" class="avatar"><br>
+                    <p class="title" >A.I. Learns to DRIVE<br><span>Code Bullet • 3.2M views • 11 months ago</span></p>
+        
+                </div>
+        
+        </div>
+
+        <hr>
+
+        <div class="video">
+        
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FJjXBrJfp5TE%2Fmaxresdefault.jpg&f=1&nofb=1" class="thumbnail">
+                <div class="info">
+                   <img src="https://yt3.ggpht.com/a-/AAuE7mCfWaPOwsuJgVsufijI_uvXPmmaPfzkLQcbpQ=s900-mo-c-c0xffffffff-rj-k-no" width="40px" height="40px" class="avatar"><br>
+                    <p class="title" >2,896 567 views! | How Tom Scott & Mr. Beast use APIs to ...<br><span>Fireship • 849k views • 8 months ago</span></p>
+        
+                </div>
+        
+        </div>
+
+            </div>
+    <h6 align="center" style="font-size: 3vw;">&#x00A9; trinitysenpai - 2020</h6>
+</body>
+
+</html>
