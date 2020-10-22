@@ -6,13 +6,6 @@
 // 	}
 // } 
 
-function popup(){
-	new jBox('Notice', {
-	  content: 'Still working on it',
-	  color: 'red'
-	});
-	}
-
 while (screen.width > 700){
 	new jBox('Modal', {
 		attach: '.thumbnail',
@@ -79,13 +72,5 @@ $(function(){
 	let d = new Date
 	let year = d.getFullYear();
 	$('h6').html('© trintysenpai - ' + year)
-
-	$('.thumbnail').click(function(){
-		
-	});
-
-	$('.thumbnail').click(function(){
-		showAccount();
-	});
 
 })
