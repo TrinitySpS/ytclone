@@ -1,6 +1,17 @@
-# YTCLONEUI ▶
+# YTCLONEUI ▶ 
 ***Entertainment in a flash***
 ![cover](img/YTCLONEUI.png)
+
+## WHAT IS THIS ?
+This is a non-functional front-end focused web app for mobile, Inspired by [YouTube](https://youtube.com)
+
+###  TECHNOLOGIES USED
+* Javascript
+* CSS
+#### FRAMEWORKS/LIBRARIES
+* jQuery
+* jBox
+* SweetAlert
 
 ## TO-DO / TASKS 
 - [x] Icons
@@ -22,3 +33,5 @@
 
 #### *A YouTube inspired web app 👩‍💻*
 ##### Wouldn't have reached this far without [CodeWithFriends](https://codewithfriends.io).
+
+_**latest update - 2020/10/23**_
