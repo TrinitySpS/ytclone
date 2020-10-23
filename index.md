@@ -1,6 +1,6 @@
 # YTCLONEUI ▶
 ***Entertainment in a flash***
-![cover](img/YTCLONEUI.png)
+![cover](https://github.com/trinitysenpai/YTCLONEUI/raw/master/img/YTCLONEUI.png)
 
 
 #### *A YouTube inspired web app 👩‍💻*
