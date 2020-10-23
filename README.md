@@ -1,7 +1,8 @@
 # ytcloneui ▶
 #### *A YouTube inspired web app 👩‍💻*
+#### Kept alive by [CWF](https://codewithfriends.io)
 ![cover](img/YTCLONEUI.png)
-TO-DO / TASKS 
+##TO-DO / TASKS 
 - [x] Home Tab 
 - [x] Recommended Tab
 - [x] Icon hover Flip Effect
