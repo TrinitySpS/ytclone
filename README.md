@@ -1,4 +1,4 @@
-# YTCLONEUI ▶ 
+# YTCLONEUI ▶
 ***Entertainment in a flash***
 ![cover](img/YTCLONEUI.png)
 
@@ -15,7 +15,7 @@ This is a non-functional front-end focused web app for mobile, Inspired by [YouT
 * jBox
 * SweetAlert
 
-## TO-DO / TASKS 
+## TO-DO / TASKS ✅
 - [x] Icons
   -  [x] -Use Google Material Fonts-**REMOVED**
   -  [x] Favicon 5 Icons 
