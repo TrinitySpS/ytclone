@@ -98,8 +98,9 @@ html, body ,h3{
     background-color:white;
     color:white;
     width:10%;
-    height:1vw;
-    margin-left:16vw;
+    height:5px;
+    margin-left:17vw;
+    margin-top: 3px;
 }
 
 h3
@@ -122,7 +123,7 @@ h3
     border-radius: 3px;
 }
 
-.container,.sub-container ,.user-container{
+.container,.sub-container ,.user-container,.settings-container{
     padding-top:31%;
 }
 
@@ -197,4 +198,32 @@ span
 {
     font-size:70%;
     color:#585858;
+}
+
+/**! The Setting/Account Tab  **/
+.settings-container{
+    padding-top:40%;
+}
+
+.account, .option{
+    width: 100vw;
+    display: flex;
+}
+
+.option{
+    border-top:solid 1px #141515;
+}
+.account > i{
+    padding: 5px 0 5px 5px;
+    margin: 5px 8vw 5px 5px;
+}
+
+.option > i{
+    transition: 350ms ease-in-out;
+    padding: 5px 0 5px 5px;
+    margin: 5px 8vw 5px 5px;
+}
+
+.option:hover{
+    background-color: rgba(20, 21, 21, 0.068);
 }
