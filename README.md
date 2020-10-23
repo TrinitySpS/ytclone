@@ -5,10 +5,12 @@
 ## WHAT IS THIS ?
 This is a non-functional front-end focused web app for mobile, Inspired by [YouTube](https://youtube.com)
 
-###  TECHNOLOGIES USED
+###  TECHNOLOGIES USED🔨
+* HTML
 * Javascript
 * CSS
-#### FRAMEWORKS/LIBRARIES
+* Firebase
+#### FRAMEWORKS/LIBRARIES🧙‍♂️
 * jQuery
 * jBox
 * SweetAlert
