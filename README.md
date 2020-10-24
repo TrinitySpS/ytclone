@@ -5,15 +5,6 @@
 ## WHAT IS THIS ?
 This is a non-functional front-end focused web app for mobile, Inspired by [YouTube](https://youtube.com)
 
-###  TECHNOLOGIES USED🔨
-* HTML
-* Javascript
-* CSS
-* Firebase
-#### FRAMEWORKS/LIBRARIES🧙‍♂️
-* jQuery
-* jBox
-* SweetAlert
 
 ## TO-DO / TASKS ✅
 - [x] Icons
@@ -22,16 +13,34 @@ This is a non-functional front-end focused web app for mobile, Inspired by [YouT
   
 
 - [x] Home Tab 
+  -  [x] Subscribe Popup
+  -  [x] Icon Gradient Styling
+  
 - [x] Recommended Tab
 - [x] Icon hover Flip Effect
-- [ ] Dark Mode
-  -  [ ] Icons Color Change on Tools Tab
-  -  [ ] Icons Color Change on the sticky Header
-  -  [ ] Vice Versa
+- [x] Dark Mode
+  -  [x] Icons Color Change on Tools Tab
+  -  [x] Icons Color Change on the sticky Header
+  -  [x] Vice Versa
 - [ ] Tools Tab
   -  [ ] Aligning the texts of the options
   -  [ ] Change some Icons
-- [ ] Modal Boxes
+- [x] Modal Boxes
+
+###  TECHNOLOGIES USED🔨
+* HTML
+* Javascript
+* CSS
+* Firebase
+
+#### FRAMEWORKS/LIBRARIES🧙‍♂️
+* jQuery
+* SweetAlert
+
+### Resources/Tools Used
+* [Canva](https://canva.com)
+* [Previewed](https://previewed.io)
+* [Trello](https://trello.com)
 
 #### *A YouTube inspired web app 👩‍💻*
 ##### Wouldn't have reached this far without [CodeWithFriends](https://codewithfriends.io).
