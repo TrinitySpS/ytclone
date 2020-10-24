@@ -227,3 +227,12 @@ span
 .option:hover{
     background-color: rgba(20, 21, 21, 0.068);
 }
+
+.icon-dark{
+    color: #141515;
+}
+
+.swal-overlay {
+    background-color: rgba(0, 0, 0, 0.623);
+  }
+
