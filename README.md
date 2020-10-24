@@ -45,4 +45,4 @@ This is a non-functional front-end focused web app for mobile, Inspired by [YouT
 #### *A YouTube inspired web app 👩‍💻*
 ##### Wouldn't have reached this far without [CodeWithFriends](https://codewithfriends.io).
 
-_**latest update - 2020/10/23**_
+_**latest update - 2020/10/23 | 03:15 AM**_
