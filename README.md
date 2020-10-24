@@ -3,7 +3,7 @@
 ![cover](img/YTCLONEUI.png)
 
 ## WHAT IS THIS ?
-This is a non-functional front-end focused web app for mobile, Inspired by [YouTube](https://youtube.com)
+This is a small project on creating a non-functional front-end focused web app for mobile, Inspired by [YouTube](https://youtube.com)
 
 
 ## TO-DO / TASKS ✅
