@@ -16,6 +16,8 @@ $(function(){
 
 	//!HOME TAB
 	$("i").eq(1).click(function(){
+		document.title = 'YTCLONEUI | Home';//? change the title
+
 		$(".indicator").css("margin-left","17%");//the tab white indicator
 		$('.material-icons').eq(0).css("margin-left","50vw");//aligning the theme button
 
@@ -27,6 +29,7 @@ $(function(){
 	
 	//!SUBS TAB
 	$("i").eq(2).click(function(){
+		document.title = 'YTCLONEUI | Subscriptions';//? change the title
 		$(".indicator").css("margin-left","44vw");
 		$('.material-icons').eq(0).css("margin-left","26vw");// the theme icon button
 		$(".container").hide();
@@ -36,7 +39,8 @@ $(function(){
 	})
 	
 	//!SETTINGS AND ACCOUNT TAB
-	$("i").eq(3).click(function(){
+	$("i").eq(3).click(function(){ 
+		document.title = 'YTCLONEUI | Tools';//? change the title
 		$(".indicator").css("margin-left","71vw");
 		$('.material-icons').eq(0).css("margin-left","52vw");// the theme icon button
 		$(".container").hide();

@@ -185,8 +185,9 @@ hr{
 p {
     font-family: Poppins,sans-serif;
     text-align:left;
-    font-size:5vw;
+    font-size:5vw !important;
 }
+
 
 .views
 {
@@ -196,7 +197,7 @@ p {
 
 span
 {
-    font-size:70%;
+    font-size:4vw;
     color:#585858;
 }
 
