@@ -26,7 +26,8 @@ This is a small project on creating a non-functional front-end focused web app f
   -  [ ] Aligning the texts of the options
   -  [ ] Change some Icons
 - [x] Modal Boxes
-
+  -  [x] conditions
+-  [ ] More Soon
 ###  TECHNOLOGIES USED🔨
 * HTML
 * Javascript
@@ -45,4 +46,4 @@ This is a small project on creating a non-functional front-end focused web app f
 #### *A YouTube inspired web app 👩‍💻*
 ##### Wouldn't have reached this far without [CodeWithFriends](https://codewithfriends.io).
 
-_**latest update - 2020/10/23 | 03:15 AM**_
+_**latest update - 2020/10/27 | 20:53 PM**_
